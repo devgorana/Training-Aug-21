@@ -54,11 +54,132 @@ SELECT All e.EmployeeID, e.FirstName, e.LastName, d.DepartmentName FROM Employee
 JOIN Departments AS d ON e.DepartmentID = d.DepartmentID
 
 --14. Write a query to display the employee ID, first name, last names, salary of all employees whose salary is above average for their departments. 
+SELECT EmployeeID, FirstName, LastName, Salary FROM Employees AS e 
+WHERE Salary > (SELECT AVG(Salary) FROM Employees 
+WHERE DepartmentID = e.DepartmentID)
 
 --16. Write a query to find the 5th maximum salary in the employees table. 
 
 SELECT * FROM Employees e1 
-WHERE 5 = (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary >= e1.Salary)
+WHERE 5= (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary >= e1.Salary)
 
 --17. Write a query to find the 4th minimum salary in the employees table. 
+
+SELECT * FROM Employees e1 
+WHERE 4= (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary <= e1.Salary)
+
+--18. Write a query to select last 10 records from a table.
+
+SELECT TOP 10 * FROM Employees ORDER BY EmployeeID DESC
+
+--19. Write a query to list department number, name for all the departments in which there are no employees in the department. 
+
+SELECT * FROM Departments WHERE DepartmentID NOT IN (SELECT DepartmentID FROM Departments)
+
+--20. Write a query to get 3 maximum salaries. 
+
+SELECT TOP 3 * FROM Employees ORDER BY Salary DESC
+
+--21. Write a query to get 3 minimum salaries. 
+
+SELECT TOP 3 * FROM Employees ORDER BY Salary
+
+--22. Write a query to get nth max salaries of employees. 
+
+DECLARE @number int
+SET @number = 5
+SELECT * FROM Employees e1 
+WHERE @number= (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary >= e1.Salary)
+
+
+--View Query 
+
+--1. Write a query to find the addresses (location_id, street_address, city, state_province, country_name) of all the departments. 
+ SELECT * FROM Supp1
+
+-----------------------------------
+UPDATE Asin3 SET FirstName = 'Devil' WHERE LastName = 'King'
+SELECT * FROM Asin3 
+-----------------------------------
+--2. Write a query to find the names (first_name, last name), department ID and name of all the employees. 
+CREATE VIEW Supp2
+AS
+(
+SELECT CONCAT(FirstName, ' ', LastName) AS Names, DepartmentID FROM Employees
+)
+SELECT * FROM Supp2
+
+--3. Find the names (first_name, last_name), job, department number, and department name of the employees who work in London. 
+CREATE VIEW Supp3
+AS
+(
+SELECT CONCAT(Employees.FirstName,' ', Employees.LastName) AS Names, Employees.JobId, 
+Employees.DepartmentID, Departments.DepartmentName FROM Employees 
+JOIN Departments ON Employees.DepartmentID = Departments.DepartmentID 
+JOIn Locations ON Locations.LocationID = Departments.LocationID 
+WHERE Locations.City = 'London'
+)
+
+SELECT * FROM Supp3
+
+--4. Write a query to find the employee id, name (last_name) along with their manager_id, manager name (last_name). 
+CREATE VIEW Supp4
+AS
+(
+SELECT EmployeeID, LastName AS Name, ManagerID FROM Employees
+
+)
+SELECT * FROM Supp4
+
+	--5. Find the names (first_name, last_name) and hire date of the employees who were hired after 'Jones'. 
+CREATE VIEW Supp5
+AS
+(
+SELECT e.FirstName, e.LastName, e.JoiningDate FROM Employees e 
+JOIN Employees emp ON (emp.FirstName = 'John') 
+WHERE emp.JoiningDate < e.JoiningDate
+)
+SELECT * FROM Supp5
+
+--6. Write a query to get the department name and number of employees in the department. 
+CREATE VIEW Supp6
+AS
+(
+SELECT DepartmentName AS 'Department Name', 
+COUNT(*) AS 'No of Employees' FROM Departments 
+INNER JOIN Employees ON Employees.DepartmentID = Departments.DepartmentID 
+GROUP BY Departments.DepartmentID, DepartmentName
+)
+SELECT * FROM Supp6
+
+--7. Find the employee ID, job title, number of days between ending date and starting date for all jobs in department 90 from job history. 
+CREATE VIEW Supp7
+AS
+(
+SELECT JobHistory.EmployeeID, Jobs.JobTitle, DATEDIFF(DAY, JobHistory.EndDate, JobHistory.StartDate) AS Days 
+FROM JobHistory 
+JOIN Jobs ON JobHistory.JobID = Jobs.JobId 
+WHERE DepartmentID = 90
+)
+SELECT * FROM Supp7
+
+--8. Write a query to display the department ID, department name and manager first name. 
+CREATE VIEW Supp8
+AS
+(
+SELECT DepartmentID, DepartmentName, ManagerID FROM Departments
+)
+SELECT * FROM Supp8
+
+--9. Write a query to display the department name, manager name, and city. 
+CREATE VIEW Supp9
+AS
+(
+SELECT Departments.DepartmentName, Departments.ManagerID, Locations.City FROM Departments 
+JOIN Locations ON Departments.LocationID = Locations.LocationID
+)
+SELECT * FROM Supp9
+
+--10. Write a query to display the job title and average salary of employees. 
+
 

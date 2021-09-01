@@ -100,6 +100,8 @@ WHERE @number= (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary 
 -----------------------------------
 UPDATE Asin3 SET FirstName = 'Devil' WHERE LastName = 'King'
 SELECT * FROM Asin3 
+
+SELECT * FROM Employees
 -----------------------------------
 --2. Write a query to find the names (first_name, last name), department ID and name of all the employees. 
 CREATE VIEW Supp2
@@ -182,4 +184,12 @@ SELECT * FROM Supp9
 
 --10. Write a query to display the job title and average salary of employees. 
 
+
+--11. Display job title, employee name, and the difference between salary of the employee and minimum salary for the job. 
+
+
+--12. Write a query to display the job history that were done by any employee who is currently drawing more than 10000 of salary. 
+
+
+--13. Write a query to display department name, name (first_name, last_name), hire date, salary of the manager for all managers whose experience is more than 15 years. 
 

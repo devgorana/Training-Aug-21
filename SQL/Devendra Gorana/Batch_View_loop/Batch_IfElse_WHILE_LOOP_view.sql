@@ -80,6 +80,8 @@ SELECT * FROM Del_Column
 
 
 
+
+
 	
 
 

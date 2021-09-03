@@ -35,6 +35,10 @@ LocationID decimal(4,0) '$.LocationID'
 )
 END
 
+DECLARE @json NVARCHAR(MAX);
+SET @json = '{"DepartmentID":51,"DepartmentName":"Administration","ManagerID":225,"LocationID":1700}';
+SET @json = JSON_MODIFY(@json, '$.DepartmentName', 'Manager');
+SELECT modifiedJson = @json
 
 DECLARE @json NVARCHAR(MAX)
 SET @json = '{"DepartmentID":51,"DepartmentName":"Administration","ManagerID":225,"LocationID":1700}';
@@ -65,12 +69,14 @@ SELECT StudentName, Address, City, DOB, Standard
 FROM OPENJSON(@json_Student)
 WITH
 (
-StudentName Varchar(20) '$.StudentName'
-Address VARCHAR(50) '$.Address', 
+StudentName Varchar(20) '$.StudentName' 
+[Address] VARCHAR(40) '$.Address', 
 City VARCHAR(20) '$.City', 
 DOB DATE '$.DOB', 
-Standard INT '$.Standard'
+[Standard] INT '$.Standard'
 )
 SELECT * FROM Student FOR JSON PATH 
+
+SELECT * FROM Student FOR JSON AUTO
 
 

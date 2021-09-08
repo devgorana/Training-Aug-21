@@ -62,7 +62,7 @@ WHERE DepartmentID = e.DepartmentID)
 
 SELECT * FROM Employees e1 
 WHERE 5= (SELECT COUNT(Distinct Salary) FROM Employees e2 WHERE e2.Salary >= e1.Salary)
-
+SELECT * FROM Employees ORDER BY Salary DESC
 --17. Write a query to find the 4th minimum salary in the employees table. 
 
 SELECT * FROM Employees e1 

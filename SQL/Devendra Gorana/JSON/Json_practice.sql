@@ -65,7 +65,7 @@ SET @json_Student =
 {"StudentName":"Saurabh", "Address":"Ghatlodiya", "City":"Ahmedabad", "DOB":"1997-04-14", "Standard":1}';
 
 INSERT INTO Student
-SELECT StudentName, Address, City, DOB, Standard 
+SELECT StudentName, [Address], City, DOB, [Standard] 
 FROM OPENJSON(@json_Student)
 WITH
 (
@@ -75,6 +75,8 @@ City VARCHAR(20) '$.City',
 DOB DATE '$.DOB', 
 [Standard] INT '$.Standard'
 )
+GO
+
 SELECT * FROM Student FOR JSON PATH 
 
 SELECT * FROM Student FOR JSON AUTO

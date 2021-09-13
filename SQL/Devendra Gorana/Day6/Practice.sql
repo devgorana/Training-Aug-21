@@ -35,15 +35,15 @@ WHERE Salary > (SELECT Salary FROM Employees WHERE LastName = 'Bell')
 
 --9. Find the names (first_name, last_name), salary of the employees who earn the same salary as the minimum salary for all departments. 
 SELECT FirstName, LastName, Salary FROM Employees 
-WHERE Salary = All (SELECT MIN(Salary) FROM Employees)
+WHERE Salary = (SELECT MIN(Salary) FROM Employees)
 
 --10. Find the names (first_name, last_name), salary of the employees whose salary greater than average salary of all department. 
 SELECT FirstName, LastName, Salary FROM Employees 
-WHERE Salary > All (SELECT AVG(Salary) FROM Employees) 
+WHERE Salary > (SELECT AVG(Salary) FROM Employees) 
 
 --11. Write a query to find the names (first_name, last_name) and salary of the employees who earn a salary that is higher than the salary of all the Shipping Clerk (JOB_ID = 'SH_CLERK'). Sort the results on salary from the lowest to highest. 
 SELECT FirstName, LastName, Salary FROM Employees 
-WHERE Salary > All (SELECT Salary FROM Employees WHERE JobId = 'SH_CLERK') ORDER BY Salary
+WHERE Salary > (SELECT Salary FROM Employees WHERE JobId = 'SH_CLERK') ORDER BY Salary
 
 --12. Write a query to find the names (first_name, last_name) of the employees who are not supervisors. 
 SELECT FirstName, LastName FROM Employees 
@@ -181,15 +181,3 @@ SELECT Departments.DepartmentName, Departments.ManagerID, Locations.City FROM De
 JOIN Locations ON Departments.LocationID = Locations.LocationID
 )
 SELECT * FROM Supp9
-
---10. Write a query to display the job title and average salary of employees. 
-
-
---11. Display job title, employee name, and the difference between salary of the employee and minimum salary for the job. 
-
-
---12. Write a query to display the job history that were done by any employee who is currently drawing more than 10000 of salary. 
-
-
---13. Write a query to display department name, name (first_name, last_name), hire date, salary of the manager for all managers whose experience is more than 15 years. 
-

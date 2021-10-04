@@ -35,27 +35,28 @@
               reset all the form information including radio button   selection and result text.
         -->
         <div id="d1"><br>
-            <label class="d2" for="firstnum">Please Enter First Number :</label><br>
-            <input class="d2" type="text" id="firstnum" placeholder="First Number" required><br>
-            <label class="d2" for="secondnum">Please Enter Second Number :</label><br>
-            <input class="d2" type="text" id="secondnum" placeholder="Second Number" required><br>
-            <label class="d2">Please Select Operation You Want to Perform :</label>
-            <div style="margin: 7px;">
-            <input type="radio" id="addition" value="Addition">
-            <label for="addition">Addition</label><br>
-            <input type="radio" id="subtraction" value="Subtraction">
-            <label for="subtraction">Subtraction</label><br>
-            <input type="radio" id="multiplication" value="Multiplication">
-            <label for="multiplication">Multiplication</label><br>
-            <input type="radio" id="division" value="Division">
-            <label for="division">Division</label>
-            </div>
-            <div class="d2">
-            <button onclick="cal()" value="cal">Calculate</button>
-            <button type="reset">Reset</button><br>
-            </div>
-            <label class="d2" id="result"></label><br><br>
-            
+            <form id="form">
+                <label class="d2" for="firstnum">Please Enter First Number :</label><br>
+                <input class="d2" type="text" id="firstnum" placeholder="First Number" required><br>
+                <label class="d2" for="secondnum">Please Enter Second Number :</label><br>
+                <input class="d2" type="text" id="secondnum" placeholder="Second Number" required><br>
+                <label class="d2">Please Select Operation You Want to Perform :</label>
+                <div style="margin: 7px;">
+                    <input type="radio" id="addition" value="Addition">
+                    <label for="addition">Addition</label><br>
+                    <input type="radio" id="subtraction" value="Subtraction">
+                    <label for="subtraction">Subtraction</label><br>
+                    <input type="radio" id="multiplication" value="Multiplication">
+                    <label for="multiplication">Multiplication</label><br>
+                    <input type="radio" id="division" value="Division">
+                    <label for="division">Division</label>
+                </div>
+                <div class="d2">
+                    <button type="button" onclick="cal()" value="cal">Calculate</button>
+                    <button type="button" value="Reset" onclick="reset_data()">Reset</button>
+                </div>
+                <label class="d2" id="result"></label><br><br>
+            </form>
             
         </div>
 
@@ -94,6 +95,11 @@
                 {
                     document.getElementById("result").innerHTML = "You Don't Select The Choice.";
                 }
+            }
+            function reset_data()
+            {  
+                document.getElementById("form").reset();  
+                document.getElementById("result").innerHTML = " ";
             }
         </script>        
     </body>

@@ -31,5 +31,63 @@
             Check the entered Days and its corresponding Month.
         -->
         
+        <div class="container border mt-2">
+            <form class="m-2">
+                <label class="form-label" for="enterDate">Enter Date :</label>
+                <input class="form-control mb-2" type="text" id="enterDate" placeholder="MM-DD-YYYY">
+                <label class="form-label" for="CheckDate">Check for Date is Valid Date Or Not : </label>
+                <button class="btn btn-primary" type="button" onclick="Valid_Date()" id="CheckDate">Click Here</button><br>
+                <br>
+            </form>
+        </div>
+
+        <script>
+            
+            function Valid_Date()
+            {
+                var txt = document.getElementById("enterDate").value;
+                txt = txt.split("-");
+                month = parseInt(txt[0]);
+                dd = parseInt(txt[1]);
+                year = parseInt(txt[2]);
+
+                //condition for date valid or not
+                if(Number.isInteger(month) != true || Number.isInteger(dd) != true || Number.isInteger(year) != true)
+                {
+                    alert("Incorrect Date.");
+                }
+                else if(year < 1000 || year > 9999)
+                {
+                    alert("Incorrect Date.");
+                }
+                else if(dd < 1 || dd > 31)
+                {
+                    alert("Incorrect Date.");
+                }
+                else if(month < 1 || month >12)
+                {
+                    alert("Incorrect Date.");
+                }
+                else if(month == 2) //conditon for leap year
+                {
+                    if((year%4 == 0 && year%100 !=0) || (year%4 == 0 && (dd>1 || dd<30)))
+                    {
+                        alert("Correct Date.");
+                    }
+                    else
+                    {
+                        alert("Incorrect Date.");
+                    }
+                }
+                else if((month == 4 || month == 6 || month == 9 || month ==11) && (dd<1 || dd>30))
+                {
+                    alert("Incorrect Date.");                    
+                }
+                else
+                {
+                    alert("Correct Date.");
+                }
+            }
+        </script>
     </body>
 </html>

@@ -31,7 +31,7 @@
         <!-- Container -->
         <div class="container border bg-light">
             <div class="d-grid">
-                <button class="btn btn-success my-1" type="button" id="startexam">Start Exam</button>
+                <button class="btn btn-success my-1" type="button" onclick="(starttimer())" id="startexam">Start Exam</button>
             </div>
             <div class="row m-1 border justify-content-center">
                 You Have 3 Hours To Finish Exam.
@@ -40,11 +40,11 @@
 
 
         <script>
-            const startExambtn = document.getElementById("startexam");
-            startExambtn.addEventListener("click", () => {
-            //open exam window
-            myWindow = window.open("file:///C:/Users/Devendra/Desktop/Practice1/Training-Aug-21/JavaScript/Devendra%20Gorana/Day-4/Assingment/exam.html");
-            });
+            function starttimer() 
+            {
+                //open exam window
+                myWindow = window.open("file:///C:/Users/Devendra/Desktop/Practice1/Training-Aug-21/JavaScript/Devendra%20Gorana/Day-4/Assingment/exam.html");
+            }
         </script>
     </body>
 </html>

@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\bin\Debug\ConsoleApp_Practice_DelegateDemo.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\bin\Debug\ConsoleApp_Practice_DelegateDemo.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\bin\Debug\ConsoleApp_Practice_DelegateDemo.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\obj\Debug\ConsoleApp_Practice_DelegateDemo.csproj.AssemblyReference.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\obj\Debug\ConsoleApp_Practice_DelegateDemo.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\obj\Debug\ConsoleApp_Practice_DelegateDemo.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_DelegateDemo\obj\Debug\ConsoleApp_Practice_DelegateDemo.pdb

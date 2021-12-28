@@ -1,0 +1,6 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\obj\Debug\ConsoleApp_Day_5_Practice_Stack.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\bin\Debug\ConsoleApp_Day_5_Practice_Stack.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\bin\Debug\ConsoleApp_Day_5_Practice_Stack.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\bin\Debug\ConsoleApp_Day_5_Practice_Stack.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\obj\Debug\ConsoleApp_Day_5_Practice_Stack.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_5_Practice\ConsoleApp_Day_5_Practice_Stack\obj\Debug\ConsoleApp_Day_5_Practice_Stack.pdb

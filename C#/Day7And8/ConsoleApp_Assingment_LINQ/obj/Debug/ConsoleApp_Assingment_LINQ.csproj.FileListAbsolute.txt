@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\bin\Debug\ConsoleApp_Assingment_LINQ.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\bin\Debug\ConsoleApp_Assingment_LINQ.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\bin\Debug\ConsoleApp_Assingment_LINQ.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\obj\Debug\ConsoleApp_Assingment_LINQ.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\obj\Debug\ConsoleApp_Assingment_LINQ.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\obj\Debug\ConsoleApp_Assingment_LINQ.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Assingment_LINQ\obj\Debug\ConsoleApp_Assingment_LINQ.csproj.AssemblyReference.cache

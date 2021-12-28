@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\bin\Debug\ConsoleApp_Day_6_Assingment_1.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\bin\Debug\ConsoleApp_Day_6_Assingment_1.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\bin\Debug\ConsoleApp_Day_6_Assingment_1.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\obj\Debug\ConsoleApp_Day_6_Assingment_1.csproj.AssemblyReference.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\obj\Debug\ConsoleApp_Day_6_Assingment_1.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\obj\Debug\ConsoleApp_Day_6_Assingment_1.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Day_6_Assingment_1\obj\Debug\ConsoleApp_Day_6_Assingment_1.pdb

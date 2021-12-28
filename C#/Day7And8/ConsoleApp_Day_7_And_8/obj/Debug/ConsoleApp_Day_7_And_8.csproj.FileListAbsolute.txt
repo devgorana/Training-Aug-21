@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\bin\Debug\ConsoleApp_Day_7_And_8.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\bin\Debug\ConsoleApp_Day_7_And_8.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\bin\Debug\ConsoleApp_Day_7_And_8.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\obj\Debug\ConsoleApp_Day_7_And_8.csproj.AssemblyReference.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\obj\Debug\ConsoleApp_Day_7_And_8.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\obj\Debug\ConsoleApp_Day_7_And_8.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Day_7_And_8\obj\Debug\ConsoleApp_Day_7_And_8.pdb

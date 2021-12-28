@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\bin\Debug\ConsoleApp_Practice_Event.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\bin\Debug\ConsoleApp_Practice_Event.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\bin\Debug\ConsoleApp_Practice_Event.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\obj\Debug\ConsoleApp_Practice_Event.csproj.AssemblyReference.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\obj\Debug\ConsoleApp_Practice_Event.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\obj\Debug\ConsoleApp_Practice_Event.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_6_Assingment_1\ConsoleApp_Practice_Event\obj\Debug\ConsoleApp_Practice_Event.pdb

@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\bin\Debug\ConsoleApp_Practice_LINQ_OrderBy.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\bin\Debug\ConsoleApp_Practice_LINQ_OrderBy.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\bin\Debug\ConsoleApp_Practice_LINQ_OrderBy.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\obj\Debug\ConsoleApp_Practice_LINQ_OrderBy.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\obj\Debug\ConsoleApp_Practice_LINQ_OrderBy.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\obj\Debug\ConsoleApp_Practice_LINQ_OrderBy.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OrderBy\obj\Debug\ConsoleApp_Practice_LINQ_OrderBy.csproj.AssemblyReference.cache

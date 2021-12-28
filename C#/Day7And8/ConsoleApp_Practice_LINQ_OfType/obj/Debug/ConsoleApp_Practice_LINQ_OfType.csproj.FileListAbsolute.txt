@@ -1,0 +1,7 @@
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\bin\Debug\ConsoleApp_Practice_LINQ_OfType.exe.config
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\bin\Debug\ConsoleApp_Practice_LINQ_OfType.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\bin\Debug\ConsoleApp_Practice_LINQ_OfType.pdb
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\obj\Debug\ConsoleApp_Practice_LINQ_OfType.csproj.AssemblyReference.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\obj\Debug\ConsoleApp_Practice_LINQ_OfType.csproj.CoreCompileInputs.cache
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\obj\Debug\ConsoleApp_Practice_LINQ_OfType.exe
+C:\Users\Devendra\source\repos\ConsoleApp_Day_7_And_8\ConsoleApp_Practice_LINQ_OfType\obj\Debug\ConsoleApp_Practice_LINQ_OfType.pdb
